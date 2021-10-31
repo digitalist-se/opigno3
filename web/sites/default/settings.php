@@ -42,14 +42,3 @@ if (file_exists($app_root . '/' . $site_path . '/settings.platformsh.php')) {
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
-$databases['default']['default'] = array (
-  'database' => 'drupal9',
-  'username' => 'drupal9',
-  'password' => 'drupal9',
-  'prefix' => '',
-  'host' => 'database.opigno.internal',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['hash_salt'] = 'ePg6qLsmEIiWJqRxfVaE0v2K14DCGXHya8PSMDiQsNuZGG2VH8vYI_35_9rRiubyF7fA7X0izg';
